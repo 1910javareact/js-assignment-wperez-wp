@@ -20,6 +20,16 @@ Example for printShape("Diamond", 5, "*");
  ***
   * 
 */
-function printShape(shape, height, character) {
-  
-}
+function printSquare (shape, height, character ){
+    let square = shape
+    let height1 = height
+    
+    char = character
+    for (let i = 1; i <= height1; i++){
+      for (let j = 1; j <= height1; j++){
+        console.log(char)
+      }
+    }
+    console.log(shape)
+  }
+console.log(printSquare ('square', 2, "*" ))

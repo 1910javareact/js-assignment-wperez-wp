@@ -7,7 +7,7 @@ function substring(someStr, startIndex, endIndex){
     console.log(someStr.substring(startIndex,endIndex))
 }
 try {
-    substring("hello", o, 3)
+    substring("hello", 0, 3)
   }
   catch(e) {
 throw "input was incorrect"
