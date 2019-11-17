@@ -2,6 +2,7 @@
 Define function objectProperties(someObj)
 Print every property and it's value. */
 function objectProperties(...Obj) {
+    
     console.log(someObj)
 }
 
